@@ -1,0 +1,164 @@
+# pages/4_🕳️_Attractors_&_Loss.py
+
+import streamlit as st
+import tensorflow as tf
+import numpy as np
+import plotly.graph_objects as go
+from PIL import Image
+import io
+import os
+
+# Import custom modules
+from utils.model_loader import load_model_config
+
+# Page Configuration
+st.set_page_config(page_title="Attractors & Loss Landscape", page_icon="🕳️", layout="wide")
+
+# Function to load local CSS for custom styling
+def load_css(file_name):
+    if os.path.exists(file_name):
+        with open(file_name) as f:
+            st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
+# Call the function to apply styles
+load_css("assets/style.css")
+
+# Helper Functions
+def preprocess_for_model(img_pil, target_size, preprocess_fn):
+    img = img_pil.resize(target_size)
+    img_array = tf.keras.preprocessing.image.img_to_array(img)
+    img_array = tf.expand_dims(img_array, 0)
+    return preprocess_fn(img_array)
+
+def normalize_vector(v):
+    return v / (tf.norm(v) + 1e-10)
+
+def get_directions(input_img, input_label, model, loss_object):
+    """Calculates the adversarial direction and a random orthogonal direction."""
+    # Adversarial Direction (Gradient)
+    with tf.GradientTape() as tape:
+        tape.watch(input_img)
+        prediction = model(input_img, training=False)
+        loss = loss_object(input_label, prediction)
+    
+    gradient = tape.gradient(loss, input_img)
+    d1 = normalize_vector(tf.sign(gradient))
+    
+    # Random Direction
+    rand_vec = tf.random.normal(shape=input_img.shape)
+    
+    # Gram-Schmidt Orthogonalization: d2 = rand - proj_d1(rand)
+    dot_product = tf.reduce_sum(rand_vec * d1)
+    d2 = rand_vec - dot_product * d1
+    d2 = normalize_vector(d2)
+    
+    return d1, d2
+
+# Main UI
+st.title("🕳️ 3D Loss Landscape & Attractors")
+st.markdown("""
+Neural networks operate in extremely high-dimensional spaces, making it impossible to visualize their decision boundaries directly. 
+However, we can slice through this space by projecting the **Loss Function** onto a 2D plane spanned by two specific directions:
+1. **Adversarial Direction:** The exact path taken by the gradient descent during an attack.
+2. **Random Direction:** An orthogonal random vector for spatial context.
+
+By computing the loss across a grid of points on this plane, we generate a **3D Surface Map**. 
+Notice how moving along the adversarial direction rapidly climbs a "mountain" of error, forcing the network into a *Sink Class* or *Attractor*.
+""")
+
+st.sidebar.header("⚙️ Landscape Parameters")
+
+# Sidebar Controls
+selected_model = st.sidebar.selectbox("Select CNN Architecture", ['MobileNetV2', 'EfficientNetB0', 'InceptionV3'])
+grid_size = st.sidebar.slider("Grid Resolution (Warning: High values are slow)", min_value=11, max_value=25, value=15, step=2)
+base_range = st.sidebar.slider("Exploration Range (ε span)", min_value=0.05, max_value=0.2, value=0.1, step=0.05)
+
+uploaded_file = st.sidebar.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
+execute_btn = st.sidebar.button("🏔️ Generate 3D Loss Landscape", type="primary", use_container_width=True)
+
+if execute_btn and uploaded_file is not None:
+    # Load Configuration & Image
+    config = load_model_config(selected_model)
+    model = config['model']
+    loss_object = tf.keras.losses.CategoricalCrossentropy()
+    
+    image_pil = Image.open(uploaded_file).convert('RGB')
+    input_image = preprocess_for_model(image_pil, config['target_size'], config['preprocess_fn'])
+    
+    # Get true label
+    original_probs = model(input_image, training=False)
+    orig_idx = tf.argmax(original_probs, axis=-1).numpy()[0]
+    input_label = tf.reshape(tf.one_hot(orig_idx, original_probs.shape[-1]), (1, -1))
+    
+    # Get the span directions
+    d1, d2 = get_directions(input_image, input_label, model, loss_object)
+    
+    # Compute Grid
+    eps_range = base_range * config['eps_scale']
+    alphas = np.linspace(-eps_range, eps_range, grid_size)
+    betas = np.linspace(-eps_range, eps_range, grid_size)
+    
+    loss_surface = np.zeros((grid_size, grid_size))
+    
+    # UI Progress Bar
+    progress_text = "Calculating 3D Loss Surface. Please wait..."
+    my_bar = st.progress(0, text=progress_text)
+    
+    clip_min, clip_max = config['clip_min'], config['clip_max']
+    
+    for i, alpha in enumerate(alphas):
+        # Batch processing per row to speed up computation
+        batch_imgs = []
+        for beta in betas:
+            perturbed_img = input_image + (alpha * d1) + (beta * d2)
+            perturbed_img = tf.clip_by_value(perturbed_img, clip_min, clip_max)
+            batch_imgs.append(perturbed_img[0]) 
+            
+        batch_imgs = tf.stack(batch_imgs)
+        batch_preds = model(batch_imgs, training=False)
+        
+        tiled_labels = tf.tile(input_label, [grid_size, 1])
+        row_losses = loss_object(tiled_labels, batch_preds)
+        
+        loss_surface[i, :] = row_losses.numpy()
+        
+        # Update progress bar
+        my_bar.progress((i + 1) / grid_size, text=f"Processing row {i+1}/{grid_size}...")
+        
+    my_bar.empty()
+    st.success("3D Landscape generated successfully!")
+    
+    # Plotly Interactive 3D Surface
+    fig = go.Figure(data=[go.Surface(z=loss_surface, x=betas, y=alphas, colorscale='Inferno')])
+    
+    # Mark the original image position (center of the grid)
+    center_idx = grid_size // 2
+    original_loss = loss_surface[center_idx, center_idx]
+    
+    fig.add_trace(go.Scatter3d(
+        x=[0], y=[0], z=[original_loss],
+        mode='markers+text',
+        marker=dict(size=8, color='cyan', symbol='diamond'),
+        text=['Original Image'], textposition='top center',
+        name='Original'
+    ))
+    
+    fig.update_layout(
+        title=dict(text=f'Loss Landscape around the Input - {selected_model}', font=dict(size=20)),
+        scene=dict(
+            xaxis_title='Random Direction (β)',
+            yaxis_title='Adversarial Direction (α)',
+            zaxis_title='Loss (Categorical Crossentropy)',
+            camera=dict(eye=dict(x=1.5, y=-1.5, z=1.2)) # Initial viewing angle
+        ),
+        margin=dict(l=0, r=0, b=0, t=50),
+        height=700,
+        template="plotly_dark"
+    )
+    
+    st.plotly_chart(fig, use_container_width=True)
+
+elif execute_btn and uploaded_file is None:
+    st.error("Please upload an image first from the sidebar.")
+else:
+    st.info("👈 Upload an image and click 'Generate 3D Loss Landscape' to explore the network's topology.")
