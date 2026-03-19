@@ -5,7 +5,10 @@
 /* Hide Streamlit default branding for a white-label, professional look */
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
-header {visibility: hidden;}
+/* Remove 'header {visibility: hidden;}' so the sidebar toggle arrow remains visible */
+header[data-testid="stHeader"] {
+    background-color: transparent;
+}
 
 /* Improve global font rendering */
 html, body, [class*="css"] {
