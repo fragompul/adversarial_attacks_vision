@@ -5,6 +5,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Plotly](https://img.shields.io/badge/Plotly-Interactive-3F4F75?logo=plotly&logoColor=white)](https://plotly.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Play_Now!-success?style=for-the-badge)](https://adversarial-attacks-vision.streamlit.app/)
 
 > **Unveiling the geometric and topological vulnerabilities of Convolutional Neural Networks through Adversarial Machine Learning.**
 
@@ -77,7 +78,10 @@ The project is strictly modularized, separating the mathematical research engine
 
 ## 🚀 Getting Started
 
-To run the interactive dashboard locally and test the adversarial attacks in real-time:
+**🌐 Live Demo:** Don't want to install anything? You can test the interactive dashboard and run real-time adversarial attacks directly in your browser:
+👉 **[Launch the Web Application](https://adversarial-attacks-vision.streamlit.app/)**
+
+If you prefer to run the project locally and explore the code:
 
 **1. Clone the repository:**
 ```
