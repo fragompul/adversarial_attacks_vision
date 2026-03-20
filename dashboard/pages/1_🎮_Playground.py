@@ -78,10 +78,10 @@ def get_dft_magnitude(img_array):
 st.sidebar.title("⚙️ Attack Parameters")
 
 # Model Selection
-selected_model = st.sidebar.selectbox("Select CNN Architecture", ['MobileNetV2', 'EfficientNetB0', 'InceptionV3'])
+selected_model = st.sidebar.selectbox("Select CNN Architecture", ['MobileNetV2', 'EfficientNetB0', 'InceptionV3'], help="Choose the underlying neural network. Different architectures exhibit distinct geometric vulnerabilities and baseline accuracies.")
 
 # Attack Selection
-selected_attack = st.sidebar.selectbox("Select Attack Algorithm", ['FGSM', 'PGD', 'C&W', 'DeepFool', 'Targeted I-FGSM'])
+selected_attack = st.sidebar.selectbox("Select Attack Algorithm", ['FGSM', 'PGD', 'C&W', 'DeepFool', 'Targeted I-FGSM'], help="Algorithm to craft the adversarial noise.")
 
 # Dynamic Hyperparameters based on Attack
 st.sidebar.markdown("---")
@@ -92,12 +92,12 @@ conf_threshold = None
 if selected_attack in ['FGSM', 'PGD', 'Targeted I-FGSM']:
     base_eps = st.sidebar.slider("Perturbation Magnitude (ε)", min_value=0.001, max_value=0.1, value=0.02, step=0.005, help="Higher epsilon means stronger but more visible attacks.")
 if selected_attack in ['PGD', 'Targeted I-FGSM']:
-    iters = st.sidebar.slider("Iterations", min_value=5, max_value=50, value=10, step=5)
+    iters = st.sidebar.slider("Iterations", min_value=5, max_value=50, value=10, step=5, help="Number of gradient steps. More iterations create stronger, more refined attacks but require more computation time.")
 if selected_attack == 'C&W':
-    c_weight = st.sidebar.slider("Confidence Weight (c)", min_value=0.1, max_value=10.0, value=1.0, step=0.1)
-    iters = st.sidebar.slider("Max Iterations", min_value=10, max_value=100, value=40, step=10)
+    c_weight = st.sidebar.slider("Confidence Weight (c)", min_value=0.1, max_value=10.0, value=1.0, step=0.1, help="Balances the trade-off between stealthiness (L2 distortion) and attack success. Higher values prioritize misclassification over invisibility.")
+    iters = st.sidebar.slider("Max Iterations", min_value=10, max_value=100, value=40, step=10, help="Maximum number of optimization steps for the C&W algorithm to find the optimal noise.")
 if selected_attack == 'DeepFool':
-    iters = st.sidebar.slider("Max Iterations", min_value=5, max_value=50, value=20, step=5)
+    iters = st.sidebar.slider("Max Iterations", min_value=5, max_value=50, value=20, step=5, help="Maximum steps to push the image iteratively towards the nearest decision boundary in the latent space.")
 
 if selected_attack == 'Targeted I-FGSM':
     st.sidebar.markdown("**🎯 Targeted Settings**")
@@ -165,21 +165,21 @@ if selected_attack == 'Targeted I-FGSM':
     }
     
     # Toggle to show more options without cluttering the UI initially
-    show_extended = st.sidebar.checkbox("Show extended class list")
+    show_extended = st.sidebar.checkbox("Show extended class list", help="Expand the dropdown to include more specific ImageNet categories.")
     
     classes_to_show = EXTENDED_TARGET_CLASSES if show_extended else BASE_TARGET_CLASSES
     
-    target_name = st.sidebar.selectbox("Select Target Class", list(classes_to_show.keys()))
+    target_name = st.sidebar.selectbox("Select Target Class", list(classes_to_show.keys()), help="The exact category you want to force the network to falsely predict (sink class).")
     target_class_idx = classes_to_show[target_name]
     
-    use_threshold = st.sidebar.checkbox("Use confidence threshold")
+    use_threshold = st.sidebar.checkbox("Use confidence threshold", help="Require the attack to push the model's confidence for the target class above a specific percentage.")
     if use_threshold:
         conf_threshold = st.sidebar.slider("Target Confidence Threshold", min_value=0.0, max_value=1.0, value=0.8, step=0.05, help="Desired confidence (between 0 and 1) for the targeted class.")
 
 st.sidebar.markdown("---")
 
 # Image Upload
-uploaded_file = st.sidebar.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
+uploaded_file = st.sidebar.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"], help="Upload your own image to test the network live. It will be automatically resized and preprocessed.")
 execute_btn = st.sidebar.button("🚀 Run Attack", use_container_width=True, type="primary")
 
 # Main UI
