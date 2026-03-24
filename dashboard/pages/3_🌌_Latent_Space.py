@@ -5,6 +5,7 @@ import tensorflow as tf
 import numpy as np
 import plotly.graph_objects as go
 from sklearn.decomposition import PCA
+from sklearn.manifold import TSNE
 import glob
 import os
 from PIL import Image
@@ -53,7 +54,7 @@ st.markdown("""
 Neural networks perceive images as points in a highly dimensional **Latent Space**. 
 An adversarial attack works by calculating a specific vector that pushes an image's representation out of its original class cluster and into a different one.
 
-Using **Principal Component Analysis (PCA)**, we project these thousands of dimensions down to 2D. 
+Using dimensionality reduction techniques, we project these thousands of dimensions down to 2D. 
 Here, you can visualize the exact trajectory (Attack Vector) that the adversarial noise forces the image to take.
 """)
 
@@ -62,6 +63,7 @@ st.sidebar.header("⚙️ Projection Parameters")
 # Sidebar Controls
 selected_model = st.sidebar.selectbox("Select CNN Architecture", ['MobileNetV2', 'EfficientNetB0', 'InceptionV3'], help="Observe how the internal latent representations differ across architectures.")
 selected_attack = st.sidebar.selectbox("Select Attack Algorithm", ['FGSM']) # Kept to FGSM for real-time speed in 2D projection
+reduction_method = st.sidebar.selectbox("Select Projection Method", ['PCA', 't-SNE'], help="PCA is faster and preserves global structure. t-SNE is better at separating local clusters but takes slightly longer to compute.")
 epsilon = st.sidebar.slider("Perturbation Magnitude (ε)", min_value=0.01, max_value=0.2, value=0.05, step=0.01, help="Higher epsilon means stronger but more visible attacks.")
 num_samples = st.sidebar.slider("Number of Images to Project", min_value=5, max_value=30, value=15, step=5)
 
@@ -116,25 +118,38 @@ if execute_btn:
                 
                 labels_info.append((decoded_orig, decoded_adv))
                 
-            # Dimensionality Reduction (PCA)
+            # Dimensionality Reduction
             all_features = np.vstack((original_features, adversarial_features))
-            pca = PCA(n_components=2)
-            pca_result = pca.fit_transform(all_features)
+            
+            if reduction_method == 'PCA':
+                reducer = PCA(n_components=2)
+                reduced_result = reducer.fit_transform(all_features)
+                # PCA specific axis titles
+                x_title = f"Principal Component 1 ({reducer.explained_variance_ratio_[0]*100:.1f}% Variance)"
+                y_title = f"Principal Component 2 ({reducer.explained_variance_ratio_[1]*100:.1f}% Variance)"
+            else: # t-SNE
+                # Perplexity must be less than the number of samples
+                perplexity_val = min(30, len(all_features) - 1)
+                reducer = TSNE(n_components=2, perplexity=perplexity_val, random_state=42)
+                reduced_result = reducer.fit_transform(all_features)
+                # t-SNE specific axis titles
+                x_title = "t-SNE Dimension 1"
+                y_title = "t-SNE Dimension 2"
             
             # Split back
-            orig_pca = pca_result[:num_samples]
-            adv_pca = pca_result[num_samples:]
+            orig_reduced = reduced_result[:num_samples]
+            adv_reduced = reduced_result[num_samples:]
             
         # Plotting with Plotly
-        st.success("Latent space projection completed successfully!")
+        st.success(f"Latent space projection ({reduction_method}) completed successfully!")
         
         fig = go.Figure()
         
         # Draw Attack Vectors (Lines connecting original to adversarial)
         for i in range(num_samples):
             fig.add_trace(go.Scatter(
-                x=[orig_pca[i, 0], adv_pca[i, 0]],
-                y=[orig_pca[i, 1], adv_pca[i, 1]],
+                x=[orig_reduced[i, 0], adv_reduced[i, 0]],
+                y=[orig_reduced[i, 1], adv_reduced[i, 1]],
                 mode='lines',
                 line=dict(color='gray', width=1, dash='dot'),
                 showlegend=False,
@@ -143,8 +158,8 @@ if execute_btn:
             
         # Draw Original Points
         fig.add_trace(go.Scatter(
-            x=orig_pca[:, 0],
-            y=orig_pca[:, 1],
+            x=orig_reduced[:, 0],
+            y=orig_reduced[:, 1],
             mode='markers+text',
             name='Original Images',
             marker=dict(size=12, color='#1f77b4', line=dict(width=2, color='DarkSlateGrey')),
@@ -155,8 +170,8 @@ if execute_btn:
         
         # Draw Adversarial Points
         fig.add_trace(go.Scatter(
-            x=adv_pca[:, 0],
-            y=adv_pca[:, 1],
+            x=adv_reduced[:, 0],
+            y=adv_reduced[:, 1],
             mode='markers',
             name='Adversarial Images',
             marker=dict(size=12, color='#d62728', symbol='x', line=dict(width=2, color='DarkRed')),
@@ -165,9 +180,9 @@ if execute_btn:
         ))
         
         fig.update_layout(
-            title=dict(text=f"Latent Space Topology ({selected_model})", font=dict(size=20)),
-            xaxis_title=f"Principal Component 1 ({pca.explained_variance_ratio_[0]*100:.1f}% Variance)",
-            yaxis_title=f"Principal Component 2 ({pca.explained_variance_ratio_[1]*100:.1f}% Variance)",
+            title=dict(text=f"Latent Space Topology ({selected_model}) - {reduction_method}", font=dict(size=20)),
+            xaxis_title=x_title,
+            yaxis_title=y_title,
             template="plotly_white",
             height=700,
             hovermode="closest"
@@ -181,6 +196,7 @@ if execute_btn:
             * **Blue Circles:** The image as normally perceived by the network.
             * **Red Crosses:** The hacked version of the image.
             * **Dotted Lines (Vectors):** The mathematical translation applied by the attack. Notice how some vectors shoot entirely out of the main cluster; these are successful attacks pushing the image into an incorrect class territory.
+            * **PCA vs t-SNE:** PCA shows global distance and variance. t-SNE prioritizes keeping similar points close together, making cluster separation much more visible.
             * Hover over the points to see the predicted class labels change!
             """)
 else:
