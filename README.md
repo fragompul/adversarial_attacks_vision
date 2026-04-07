@@ -92,12 +92,12 @@ cd adversarial_attacks_vision
 **2. Install dependencies:**
 It is recommended to use a virtual environment (venv or conda).
 ```
+cd dashboard
 pip install -r dashboard/requirements.txt
 ```
 
 **3. Launch the Streamlit Dashboard:**
 ```
-cd dashboard
 streamlit run Home.py
 ```
 
