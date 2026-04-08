@@ -122,9 +122,9 @@ The application will automatically open in your default web browser at http://lo
 *Machine Learning Engineer @ IMSE-cnm (CSIC) | Double Major in Mathematics & Computer Science* | Master's in Artificial Intelligence
 
 📫 **Let's connect:**
-* **LinkedIn:** linkedin.com/in/frangomezpulido
-* **GitHub:** github.com/fragompul
-* **Email:** frangomezpulido2002@gmail.com
+* **LinkedIn:** [linkedin.com/in/frangomezpulido](https://www.linkedin.com/in/frangomezpulido)
+* **GitHub:** [github.com/fragompul](https://github.com/fragompul)
+* **Email:** [frangomezpulido2002@gmail.com](mailto:frangomezpulido2002@gmail.com)
 
 ---
 *If you find this repository interesting or useful for your research, feel free to ⭐ star it!*
