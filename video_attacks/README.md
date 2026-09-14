@@ -1,0 +1,7 @@
+# Video Attacks
+
+Every other folder in this repo attacks a single static image. This one asks whether the same gradient-based attacks generalize to video action recognition, where a model reasons over a sequence of frames rather than one.
+
+`01_adversarial_attack_video` runs FGSM and PGD, generalized from 4D image tensors to the 5D (batch, time, height, width, channels) tensors a video model expects, against MoViNet-A0 (via TensorFlow Hub, pretrained on Kinetics-600). Using a public "jumping jacks" demo clip correctly classified in its clean form, both attacks reach a 100% success rate across every epsilon tested, consistently misclassifying the clip as "spinning poi", with PGD achieving that at a lower L2 distortion than FGSM at the same epsilon, the same relationship seen between the two attacks on static images elsewhere in the repo.
+
+This folder is an early foothold rather than a finished survey: one model, one clip, two attacks. The natural next step is a detection model rather than a classification one, for instance running YOLO on a live video feed, recording how it draws bounding boxes correctly, and then generating an adversarially perturbed version of the same feed where it misses objects entirely, mislabels them, or hallucinates boxes that are not there, a threat model much closer to how vision models are actually deployed in the physical world than single-frame classification is.
