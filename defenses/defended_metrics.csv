@@ -1,0 +1,1435 @@
+Image_ID,Model,Attack,Defense,Was_Successful_Attack,Defended_Pred_Idx,Cured
+n01532829,MobileNetV2,FGSM,JPEG (q=75),True,126,False
+n01532829,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,86,False
+n01532829,MobileNetV2,PGD,JPEG (q=75),True,676,False
+n01532829,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,12,True
+n01532829,MobileNetV2,C&W,JPEG (q=75),True,12,True
+n01532829,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,12,True
+n01532829,MobileNetV2,DeepFool,JPEG (q=75),True,12,True
+n01532829,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,12,True
+n01532829,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,301,False
+n01532829,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,12,True
+n01532829,MobileNetV2,SquareAttack,JPEG (q=75),True,73,False
+n01532829,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,12,True
+n01532829,MobileNetV2,NES,JPEG (q=75),False,12,True
+n01532829,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),False,12,True
+n01532829,MobileNetV2,BoundaryAttack,JPEG (q=75),True,372,False
+n01532829,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,78,False
+n01558993,MobileNetV2,FGSM,JPEG (q=75),True,80,False
+n01558993,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,91,False
+n01558993,MobileNetV2,PGD,JPEG (q=75),True,80,False
+n01558993,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,91,False
+n01558993,MobileNetV2,C&W,JPEG (q=75),True,91,False
+n01558993,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,91,False
+n01558993,MobileNetV2,DeepFool,JPEG (q=75),True,15,True
+n01558993,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,91,False
+n01558993,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,80,False
+n01558993,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,317,False
+n01558993,MobileNetV2,SquareAttack,JPEG (q=75),True,15,True
+n01558993,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,15,True
+n01558993,MobileNetV2,NES,JPEG (q=75),False,15,True
+n01558993,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),False,91,False
+n01558993,MobileNetV2,BoundaryAttack,JPEG (q=75),True,86,False
+n01558993,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,15,True
+n01704323,MobileNetV2,FGSM,JPEG (q=75),True,371,False
+n01704323,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,77,False
+n01704323,MobileNetV2,PGD,JPEG (q=75),True,218,False
+n01704323,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,62,False
+n01704323,MobileNetV2,C&W,JPEG (q=75),True,51,True
+n01704323,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,76,False
+n01704323,MobileNetV2,DeepFool,JPEG (q=75),True,51,True
+n01704323,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,730,False
+n01704323,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,62,False
+n01704323,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,77,False
+n01704323,MobileNetV2,SquareAttack,JPEG (q=75),True,371,False
+n01704323,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,51,True
+n01704323,MobileNetV2,NES,JPEG (q=75),True,51,True
+n01704323,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,51,True
+n01704323,MobileNetV2,BoundaryAttack,JPEG (q=75),True,885,False
+n01704323,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,77,False
+n01749939,MobileNetV2,FGSM,JPEG (q=75),True,699,False
+n01749939,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,816,False
+n01749939,MobileNetV2,PGD,JPEG (q=75),True,766,False
+n01749939,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,766,False
+n01749939,MobileNetV2,C&W,JPEG (q=75),True,998,False
+n01749939,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,784,False
+n01749939,MobileNetV2,DeepFool,JPEG (q=75),True,766,False
+n01749939,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,107,False
+n01749939,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,998,False
+n01749939,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,107,False
+n01749939,MobileNetV2,SquareAttack,JPEG (q=75),True,766,False
+n01749939,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,515,False
+n01749939,MobileNetV2,NES,JPEG (q=75),True,766,False
+n01749939,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,4,False
+n01749939,MobileNetV2,BoundaryAttack,JPEG (q=75),True,111,False
+n01749939,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,103,False
+n01770081,MobileNetV2,FGSM,JPEG (q=75),True,556,False
+n01770081,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,816,False
+n01770081,MobileNetV2,PGD,JPEG (q=75),True,816,False
+n01770081,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,849,False
+n01770081,MobileNetV2,C&W,JPEG (q=75),True,73,True
+n01770081,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,70,False
+n01770081,MobileNetV2,DeepFool,JPEG (q=75),True,73,True
+n01770081,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,301,False
+n01770081,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,301,False
+n01770081,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,301,False
+n01770081,MobileNetV2,SquareAttack,JPEG (q=75),True,73,True
+n01770081,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,989,False
+n01770081,MobileNetV2,NES,JPEG (q=75),True,73,True
+n01770081,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,74,False
+n01770081,MobileNetV2,BoundaryAttack,JPEG (q=75),True,956,False
+n01770081,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,77,False
+n01843383,MobileNetV2,FGSM,JPEG (q=75),True,93,False
+n01843383,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,93,False
+n01843383,MobileNetV2,PGD,JPEG (q=75),True,376,False
+n01843383,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,93,False
+n01843383,MobileNetV2,C&W,JPEG (q=75),False,96,True
+n01843383,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),False,96,True
+n01843383,MobileNetV2,DeepFool,JPEG (q=75),True,96,True
+n01843383,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,1,False
+n01843383,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,96,True
+n01843383,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,1,False
+n01843383,MobileNetV2,SquareAttack,JPEG (q=75),True,96,True
+n01843383,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,387,False
+n01843383,MobileNetV2,NES,JPEG (q=75),False,96,True
+n01843383,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),False,93,False
+n01843383,MobileNetV2,BoundaryAttack,JPEG (q=75),True,96,True
+n01843383,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,1,False
+n01855672,MobileNetV2,FGSM,JPEG (q=75),True,331,False
+n01855672,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,138,False
+n01855672,MobileNetV2,PGD,JPEG (q=75),True,331,False
+n01855672,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,331,False
+n01855672,MobileNetV2,C&W,JPEG (q=75),True,345,False
+n01855672,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,99,False
+n01855672,MobileNetV2,DeepFool,JPEG (q=75),True,345,False
+n01855672,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,29,False
+n01855672,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,78,False
+n01855672,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,29,False
+n01855672,MobileNetV2,SquareAttack,JPEG (q=75),True,331,False
+n01855672,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,212,False
+n01855672,MobileNetV2,NES,JPEG (q=75),True,355,False
+n01855672,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,29,False
+n01855672,MobileNetV2,BoundaryAttack,JPEG (q=75),True,286,False
+n01855672,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,285,False
+n01910747,MobileNetV2,FGSM,JPEG (q=75),True,377,False
+n01910747,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,112,False
+n01910747,MobileNetV2,PGD,JPEG (q=75),True,164,False
+n01910747,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,112,False
+n01910747,MobileNetV2,C&W,JPEG (q=75),True,584,False
+n01910747,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,112,False
+n01910747,MobileNetV2,DeepFool,JPEG (q=75),False,451,True
+n01910747,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),False,112,False
+n01910747,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,126,False
+n01910747,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,126,False
+n01910747,MobileNetV2,SquareAttack,JPEG (q=75),True,584,False
+n01910747,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,126,False
+n01910747,MobileNetV2,NES,JPEG (q=75),True,126,False
+n01910747,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,126,False
+n01910747,MobileNetV2,BoundaryAttack,JPEG (q=75),True,276,False
+n01910747,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,276,False
+n01930112,MobileNetV2,FGSM,JPEG (q=75),False,688,False
+n01930112,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),False,111,True
+n01930112,MobileNetV2,PGD,JPEG (q=75),True,677,False
+n01930112,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,111,True
+n01930112,MobileNetV2,C&W,JPEG (q=75),False,111,True
+n01930112,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),False,111,True
+n01930112,MobileNetV2,DeepFool,JPEG (q=75),True,111,True
+n01930112,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,111,True
+n01930112,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,111,True
+n01930112,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,111,True
+n01930112,MobileNetV2,SquareAttack,JPEG (q=75),True,854,False
+n01930112,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,111,True
+n01930112,MobileNetV2,NES,JPEG (q=75),False,111,True
+n01930112,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),False,111,True
+n01930112,MobileNetV2,BoundaryAttack,JPEG (q=75),True,911,False
+n01930112,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,111,True
+n01981276,MobileNetV2,FGSM,JPEG (q=75),True,766,False
+n01981276,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,124,False
+n01981276,MobileNetV2,PGD,JPEG (q=75),True,748,False
+n01981276,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,310,False
+n01981276,MobileNetV2,C&W,JPEG (q=75),True,78,False
+n01981276,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,310,False
+n01981276,MobileNetV2,DeepFool,JPEG (q=75),True,126,True
+n01981276,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,310,False
+n01981276,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,301,False
+n01981276,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,310,False
+n01981276,MobileNetV2,SquareAttack,JPEG (q=75),True,766,False
+n01981276,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,815,False
+n01981276,MobileNetV2,NES,JPEG (q=75),True,78,False
+n01981276,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,310,False
+n01981276,MobileNetV2,BoundaryAttack,JPEG (q=75),True,911,False
+n01981276,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,78,False
+n02074367,MobileNetV2,FGSM,JPEG (q=75),True,220,False
+n02074367,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,109,False
+n02074367,MobileNetV2,PGD,JPEG (q=75),True,294,False
+n02074367,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,296,False
+n02074367,MobileNetV2,C&W,JPEG (q=75),True,296,False
+n02074367,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,149,True
+n02074367,MobileNetV2,DeepFool,JPEG (q=75),True,149,True
+n02074367,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,296,False
+n02074367,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,149,True
+n02074367,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,149,True
+n02074367,MobileNetV2,SquareAttack,JPEG (q=75),True,149,True
+n02074367,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,149,True
+n02074367,MobileNetV2,NES,JPEG (q=75),False,149,True
+n02074367,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),False,296,False
+n02074367,MobileNetV2,BoundaryAttack,JPEG (q=75),True,5,False
+n02074367,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,109,False
+n02089867,MobileNetV2,FGSM,JPEG (q=75),True,384,False
+n02089867,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,33,False
+n02089867,MobileNetV2,PGD,JPEG (q=75),True,630,False
+n02089867,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,794,False
+n02089867,MobileNetV2,C&W,JPEG (q=75),True,388,False
+n02089867,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,172,False
+n02089867,MobileNetV2,DeepFool,JPEG (q=75),True,166,False
+n02089867,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,362,False
+n02089867,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,167,True
+n02089867,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,166,False
+n02089867,MobileNetV2,SquareAttack,JPEG (q=75),True,906,False
+n02089867,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,355,False
+n02089867,MobileNetV2,NES,JPEG (q=75),True,166,False
+n02089867,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,166,False
+n02089867,MobileNetV2,BoundaryAttack,JPEG (q=75),True,162,False
+n02089867,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,362,False
+n02091244,MobileNetV2,FGSM,JPEG (q=75),True,166,False
+n02091244,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,164,False
+n02091244,MobileNetV2,PGD,JPEG (q=75),True,729,False
+n02091244,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,537,False
+n02091244,MobileNetV2,C&W,JPEG (q=75),True,977,True
+n02091244,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,433,False
+n02091244,MobileNetV2,DeepFool,JPEG (q=75),True,147,False
+n02091244,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,537,False
+n02091244,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,164,False
+n02091244,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,166,False
+n02091244,MobileNetV2,SquareAttack,JPEG (q=75),True,556,False
+n02091244,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,707,False
+n02091244,MobileNetV2,NES,JPEG (q=75),True,147,False
+n02091244,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,537,False
+n02091244,MobileNetV2,BoundaryAttack,JPEG (q=75),True,188,False
+n02091244,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,342,False
+n02091831,MobileNetV2,FGSM,JPEG (q=75),True,181,False
+n02091831,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,76,False
+n02091831,MobileNetV2,PGD,JPEG (q=75),True,177,False
+n02091831,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,275,False
+n02091831,MobileNetV2,C&W,JPEG (q=75),True,215,False
+n02091831,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,212,False
+n02091831,MobileNetV2,DeepFool,JPEG (q=75),True,212,False
+n02091831,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,212,False
+n02091831,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,215,False
+n02091831,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,212,False
+n02091831,MobileNetV2,SquareAttack,JPEG (q=75),True,73,False
+n02091831,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,73,False
+n02091831,MobileNetV2,NES,JPEG (q=75),True,212,False
+n02091831,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,212,False
+n02091831,MobileNetV2,BoundaryAttack,JPEG (q=75),True,188,False
+n02091831,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,361,False
+n02099601,MobileNetV2,FGSM,JPEG (q=75),True,339,False
+n02099601,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,354,False
+n02099601,MobileNetV2,PGD,JPEG (q=75),True,166,False
+n02099601,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,166,False
+n02099601,MobileNetV2,C&W,JPEG (q=75),True,207,True
+n02099601,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,219,False
+n02099601,MobileNetV2,DeepFool,JPEG (q=75),True,207,True
+n02099601,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,219,False
+n02099601,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,168,False
+n02099601,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,176,False
+n02099601,MobileNetV2,SquareAttack,JPEG (q=75),True,271,False
+n02099601,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,160,False
+n02099601,MobileNetV2,NES,JPEG (q=75),True,207,True
+n02099601,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,212,False
+n02099601,MobileNetV2,BoundaryAttack,JPEG (q=75),True,377,False
+n02099601,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,287,False
+n02101006,MobileNetV2,FGSM,JPEG (q=75),True,175,False
+n02101006,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,214,False
+n02101006,MobileNetV2,PGD,JPEG (q=75),True,214,False
+n02101006,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,214,False
+n02101006,MobileNetV2,C&W,JPEG (q=75),True,214,False
+n02101006,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,214,False
+n02101006,MobileNetV2,DeepFool,JPEG (q=75),True,214,False
+n02101006,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,816,False
+n02101006,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,165,True
+n02101006,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,301,False
+n02101006,MobileNetV2,SquareAttack,JPEG (q=75),True,165,True
+n02101006,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,214,False
+n02101006,MobileNetV2,NES,JPEG (q=75),True,214,False
+n02101006,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,265,False
+n02101006,MobileNetV2,BoundaryAttack,JPEG (q=75),True,357,False
+n02101006,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,106,False
+n02105505,MobileNetV2,FGSM,JPEG (q=75),True,371,False
+n02105505,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,377,False
+n02105505,MobileNetV2,PGD,JPEG (q=75),True,176,False
+n02105505,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,212,False
+n02105505,MobileNetV2,C&W,JPEG (q=75),True,164,False
+n02105505,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,212,False
+n02105505,MobileNetV2,DeepFool,JPEG (q=75),True,289,False
+n02105505,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,212,False
+n02105505,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,175,False
+n02105505,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,212,False
+n02105505,MobileNetV2,SquareAttack,JPEG (q=75),True,377,False
+n02105505,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,212,False
+n02105505,MobileNetV2,NES,JPEG (q=75),True,335,False
+n02105505,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,212,False
+n02105505,MobileNetV2,BoundaryAttack,JPEG (q=75),True,291,False
+n02105505,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,106,False
+n02108089,MobileNetV2,FGSM,JPEG (q=75),True,219,False
+n02108089,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,218,False
+n02108089,MobileNetV2,PGD,JPEG (q=75),True,207,False
+n02108089,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,219,False
+n02108089,MobileNetV2,C&W,JPEG (q=75),True,247,False
+n02108089,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,247,False
+n02108089,MobileNetV2,DeepFool,JPEG (q=75),True,242,True
+n02108089,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,247,False
+n02108089,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,167,False
+n02108089,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,218,False
+n02108089,MobileNetV2,SquareAttack,JPEG (q=75),True,247,False
+n02108089,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,242,True
+n02108089,MobileNetV2,NES,JPEG (q=75),True,242,True
+n02108089,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,247,False
+n02108089,MobileNetV2,BoundaryAttack,JPEG (q=75),True,162,False
+n02108089,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,242,True
+n02108551,MobileNetV2,FGSM,JPEG (q=75),True,220,False
+n02108551,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,219,False
+n02108551,MobileNetV2,PGD,JPEG (q=75),True,220,False
+n02108551,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,217,False
+n02108551,MobileNetV2,C&W,JPEG (q=75),True,244,True
+n02108551,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,247,False
+n02108551,MobileNetV2,DeepFool,JPEG (q=75),True,244,True
+n02108551,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,704,False
+n02108551,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,244,True
+n02108551,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,7,False
+n02108551,MobileNetV2,SquareAttack,JPEG (q=75),True,244,True
+n02108551,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,256,False
+n02108551,MobileNetV2,NES,JPEG (q=75),True,244,True
+n02108551,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,212,False
+n02108551,MobileNetV2,BoundaryAttack,JPEG (q=75),True,357,False
+n02108551,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,265,False
+n02108915,MobileNetV2,FGSM,JPEG (q=75),True,357,False
+n02108915,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,334,False
+n02108915,MobileNetV2,PGD,JPEG (q=75),True,103,False
+n02108915,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,224,False
+n02108915,MobileNetV2,C&W,JPEG (q=75),True,223,False
+n02108915,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,223,False
+n02108915,MobileNetV2,DeepFool,JPEG (q=75),True,268,False
+n02108915,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,696,False
+n02108915,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,126,False
+n02108915,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,78,False
+n02108915,MobileNetV2,SquareAttack,JPEG (q=75),True,357,False
+n02108915,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,859,False
+n02108915,MobileNetV2,NES,JPEG (q=75),True,223,False
+n02108915,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,224,False
+n02108915,MobileNetV2,BoundaryAttack,JPEG (q=75),True,357,False
+n02108915,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,285,False
+n02110063,MobileNetV2,FGSM,JPEG (q=75),True,188,False
+n02110063,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,285,False
+n02110063,MobileNetV2,PGD,JPEG (q=75),True,377,False
+n02110063,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,397,False
+n02110063,MobileNetV2,C&W,JPEG (q=75),True,332,False
+n02110063,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,361,False
+n02110063,MobileNetV2,DeepFool,JPEG (q=75),True,283,False
+n02110063,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,203,False
+n02110063,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,194,False
+n02110063,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,204,False
+n02110063,MobileNetV2,SquareAttack,JPEG (q=75),True,383,False
+n02110063,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,289,False
+n02110063,MobileNetV2,NES,JPEG (q=75),True,280,False
+n02110063,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,250,False
+n02110063,MobileNetV2,BoundaryAttack,JPEG (q=75),True,286,False
+n02110063,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,280,False
+n02110341,MobileNetV2,FGSM,JPEG (q=75),True,208,False
+n02110341,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,162,False
+n02110341,MobileNetV2,PGD,JPEG (q=75),True,243,False
+n02110341,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,162,False
+n02110341,MobileNetV2,C&W,JPEG (q=75),True,251,False
+n02110341,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,251,False
+n02110341,MobileNetV2,DeepFool,JPEG (q=75),True,166,True
+n02110341,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,162,False
+n02110341,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,166,True
+n02110341,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,162,False
+n02110341,MobileNetV2,SquareAttack,JPEG (q=75),True,388,False
+n02110341,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,162,False
+n02110341,MobileNetV2,NES,JPEG (q=75),True,166,True
+n02110341,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,162,False
+n02110341,MobileNetV2,BoundaryAttack,JPEG (q=75),True,388,False
+n02110341,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,162,False
+n02111277,MobileNetV2,FGSM,JPEG (q=75),True,252,False
+n02111277,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,381,False
+n02111277,MobileNetV2,PGD,JPEG (q=75),True,261,False
+n02111277,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,361,False
+n02111277,MobileNetV2,C&W,JPEG (q=75),True,369,False
+n02111277,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,369,False
+n02111277,MobileNetV2,DeepFool,JPEG (q=75),True,256,False
+n02111277,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,367,False
+n02111277,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02111277,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,369,False
+n02111277,MobileNetV2,SquareAttack,JPEG (q=75),True,297,False
+n02111277,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,205,False
+n02111277,MobileNetV2,NES,JPEG (q=75),True,205,False
+n02111277,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,367,False
+n02111277,MobileNetV2,BoundaryAttack,JPEG (q=75),True,372,False
+n02111277,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,265,False
+n02113712,MobileNetV2,FGSM,JPEG (q=75),True,341,False
+n02113712,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,32,False
+n02113712,MobileNetV2,PGD,JPEG (q=75),True,76,False
+n02113712,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,76,False
+n02113712,MobileNetV2,C&W,JPEG (q=75),True,175,False
+n02113712,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,219,False
+n02113712,MobileNetV2,DeepFool,JPEG (q=75),True,194,True
+n02113712,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,265,False
+n02113712,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02113712,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,265,False
+n02113712,MobileNetV2,SquareAttack,JPEG (q=75),True,194,True
+n02113712,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,265,False
+n02113712,MobileNetV2,NES,JPEG (q=75),True,187,False
+n02113712,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,265,False
+n02113712,MobileNetV2,BoundaryAttack,JPEG (q=75),True,5,False
+n02113712,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,265,False
+n02114548,MobileNetV2,FGSM,JPEG (q=75),True,279,False
+n02114548,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,212,False
+n02114548,MobileNetV2,PGD,JPEG (q=75),True,359,False
+n02114548,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,201,False
+n02114548,MobileNetV2,C&W,JPEG (q=75),True,279,False
+n02114548,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,279,False
+n02114548,MobileNetV2,DeepFool,JPEG (q=75),True,270,True
+n02114548,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,270,True
+n02114548,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,270,True
+n02114548,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,160,False
+n02114548,MobileNetV2,SquareAttack,JPEG (q=75),True,279,False
+n02114548,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,196,False
+n02114548,MobileNetV2,NES,JPEG (q=75),True,270,True
+n02114548,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,270,True
+n02114548,MobileNetV2,BoundaryAttack,JPEG (q=75),True,279,False
+n02114548,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,203,False
+n02116738,MobileNetV2,FGSM,JPEG (q=75),True,275,True
+n02116738,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,275,True
+n02116738,MobileNetV2,PGD,JPEG (q=75),True,189,False
+n02116738,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,196,False
+n02116738,MobileNetV2,C&W,JPEG (q=75),True,275,True
+n02116738,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,275,True
+n02116738,MobileNetV2,DeepFool,JPEG (q=75),True,275,True
+n02116738,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,275,True
+n02116738,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02116738,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,275,True
+n02116738,MobileNetV2,SquareAttack,JPEG (q=75),True,275,True
+n02116738,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,275,True
+n02116738,MobileNetV2,NES,JPEG (q=75),False,275,True
+n02116738,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),False,275,True
+n02116738,MobileNetV2,BoundaryAttack,JPEG (q=75),True,275,True
+n02116738,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,275,True
+n02120079,MobileNetV2,FGSM,JPEG (q=75),True,248,False
+n02120079,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,270,False
+n02120079,MobileNetV2,PGD,JPEG (q=75),True,248,False
+n02120079,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,258,False
+n02120079,MobileNetV2,C&W,JPEG (q=75),True,279,True
+n02120079,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,279,True
+n02120079,MobileNetV2,DeepFool,JPEG (q=75),True,279,True
+n02120079,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,203,False
+n02120079,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,279,True
+n02120079,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,279,True
+n02120079,MobileNetV2,SquareAttack,JPEG (q=75),True,279,True
+n02120079,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,258,False
+n02120079,MobileNetV2,NES,JPEG (q=75),True,279,True
+n02120079,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,258,False
+n02120079,MobileNetV2,BoundaryAttack,JPEG (q=75),True,279,True
+n02120079,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,258,False
+n02129165,MobileNetV2,FGSM,JPEG (q=75),True,271,False
+n02129165,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,271,False
+n02129165,MobileNetV2,PGD,JPEG (q=75),True,271,False
+n02129165,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,280,False
+n02129165,MobileNetV2,C&W,JPEG (q=75),True,291,True
+n02129165,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,291,True
+n02129165,MobileNetV2,DeepFool,JPEG (q=75),True,276,False
+n02129165,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,291,True
+n02129165,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,220,False
+n02129165,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,276,False
+n02129165,MobileNetV2,SquareAttack,JPEG (q=75),True,271,False
+n02129165,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,278,False
+n02129165,MobileNetV2,NES,JPEG (q=75),True,276,False
+n02129165,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,280,False
+n02129165,MobileNetV2,BoundaryAttack,JPEG (q=75),True,293,False
+n02129165,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,106,False
+n02138441,MobileNetV2,FGSM,JPEG (q=75),True,383,False
+n02138441,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,276,False
+n02138441,MobileNetV2,PGD,JPEG (q=75),True,276,False
+n02138441,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,276,False
+n02138441,MobileNetV2,C&W,JPEG (q=75),True,383,False
+n02138441,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,383,False
+n02138441,MobileNetV2,DeepFool,JPEG (q=75),True,383,False
+n02138441,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,251,False
+n02138441,MobileNetV2,TargetedI-FGSM,JPEG (q=75),True,299,False
+n02138441,MobileNetV2,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,251,False
+n02138441,MobileNetV2,SquareAttack,JPEG (q=75),True,383,False
+n02138441,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,383,False
+n02138441,MobileNetV2,NES,JPEG (q=75),True,299,False
+n02138441,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),True,251,False
+n02138441,MobileNetV2,BoundaryAttack,JPEG (q=75),True,904,False
+n02138441,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,674,False
+n02165456,MobileNetV2,FGSM,JPEG (q=75),True,906,False
+n02165456,MobileNetV2,FGSM,Feature Squeeze (4-bit + median-3),True,318,False
+n02165456,MobileNetV2,PGD,JPEG (q=75),True,906,False
+n02165456,MobileNetV2,PGD,Feature Squeeze (4-bit + median-3),True,301,True
+n02165456,MobileNetV2,C&W,JPEG (q=75),True,301,True
+n02165456,MobileNetV2,C&W,Feature Squeeze (4-bit + median-3),True,301,True
+n02165456,MobileNetV2,DeepFool,JPEG (q=75),True,301,True
+n02165456,MobileNetV2,DeepFool,Feature Squeeze (4-bit + median-3),True,301,True
+n02165456,MobileNetV2,SquareAttack,JPEG (q=75),True,301,True
+n02165456,MobileNetV2,SquareAttack,Feature Squeeze (4-bit + median-3),True,301,True
+n02165456,MobileNetV2,NES,JPEG (q=75),False,301,True
+n02165456,MobileNetV2,NES,Feature Squeeze (4-bit + median-3),False,301,True
+n02165456,MobileNetV2,BoundaryAttack,JPEG (q=75),True,310,False
+n02165456,MobileNetV2,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,310,False
+n01532829,EfficientNetB0,FGSM,JPEG (q=75),True,73,False
+n01532829,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,73,False
+n01532829,EfficientNetB0,PGD,JPEG (q=75),True,73,False
+n01532829,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,73,False
+n01532829,EfficientNetB0,C&W,JPEG (q=75),False,12,True
+n01532829,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,12,True
+n01532829,EfficientNetB0,DeepFool,JPEG (q=75),True,12,True
+n01532829,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,12,True
+n01532829,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,301,False
+n01532829,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,301,False
+n01532829,EfficientNetB0,SquareAttack,JPEG (q=75),True,78,False
+n01532829,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,12,True
+n01532829,EfficientNetB0,NES,JPEG (q=75),False,12,True
+n01532829,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),False,12,True
+n01532829,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,12,True
+n01532829,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,78,False
+n01558993,EfficientNetB0,FGSM,JPEG (q=75),True,10,False
+n01558993,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,10,False
+n01558993,EfficientNetB0,PGD,JPEG (q=75),True,371,False
+n01558993,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,10,False
+n01558993,EfficientNetB0,C&W,JPEG (q=75),False,15,True
+n01558993,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,15,True
+n01558993,EfficientNetB0,DeepFool,JPEG (q=75),True,15,True
+n01558993,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,15,True
+n01558993,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,15,True
+n01558993,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,15,True
+n01558993,EfficientNetB0,SquareAttack,JPEG (q=75),True,15,True
+n01558993,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,15,True
+n01558993,EfficientNetB0,NES,JPEG (q=75),True,15,True
+n01558993,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,15,True
+n01558993,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,80,False
+n01558993,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,15,True
+n01704323,EfficientNetB0,FGSM,JPEG (q=75),False,51,True
+n01704323,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),False,51,True
+n01704323,EfficientNetB0,PGD,JPEG (q=75),True,427,False
+n01704323,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,76,False
+n01704323,EfficientNetB0,C&W,JPEG (q=75),False,51,True
+n01704323,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,51,True
+n01704323,EfficientNetB0,DeepFool,JPEG (q=75),False,51,True
+n01704323,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),False,51,True
+n01704323,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,301,False
+n01704323,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,51,True
+n01704323,EfficientNetB0,SquareAttack,JPEG (q=75),True,51,True
+n01704323,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,51,True
+n01704323,EfficientNetB0,NES,JPEG (q=75),False,51,True
+n01704323,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),False,51,True
+n01704323,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,235,False
+n01704323,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,69,False
+n01749939,EfficientNetB0,FGSM,JPEG (q=75),True,416,False
+n01749939,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,816,False
+n01749939,EfficientNetB0,PGD,JPEG (q=75),True,938,False
+n01749939,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,935,False
+n01749939,EfficientNetB0,C&W,JPEG (q=75),False,64,True
+n01749939,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,64,True
+n01749939,EfficientNetB0,DeepFool,JPEG (q=75),True,64,True
+n01749939,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,936,False
+n01749939,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,301,False
+n01749939,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,301,False
+n01749939,EfficientNetB0,SquareAttack,JPEG (q=75),True,616,False
+n01749939,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,616,False
+n01749939,EfficientNetB0,NES,JPEG (q=75),True,64,True
+n01749939,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,936,False
+n01749939,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,31,False
+n01749939,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,616,False
+n01770081,EfficientNetB0,FGSM,JPEG (q=75),True,73,False
+n01770081,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,73,False
+n01770081,EfficientNetB0,PGD,JPEG (q=75),True,29,False
+n01770081,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,73,False
+n01770081,EfficientNetB0,C&W,JPEG (q=75),False,70,True
+n01770081,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,73,False
+n01770081,EfficientNetB0,DeepFool,JPEG (q=75),True,73,False
+n01770081,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,73,False
+n01770081,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,301,False
+n01770081,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,301,False
+n01770081,EfficientNetB0,SquareAttack,JPEG (q=75),True,73,False
+n01770081,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,70,True
+n01770081,EfficientNetB0,NES,JPEG (q=75),True,73,False
+n01770081,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,73,False
+n01770081,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,70,True
+n01770081,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,70,True
+n01843383,EfficientNetB0,FGSM,JPEG (q=75),False,96,True
+n01843383,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),False,377,False
+n01843383,EfficientNetB0,PGD,JPEG (q=75),True,749,False
+n01843383,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,93,False
+n01843383,EfficientNetB0,C&W,JPEG (q=75),False,96,True
+n01843383,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,96,True
+n01843383,EfficientNetB0,DeepFool,JPEG (q=75),True,96,True
+n01843383,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,96,True
+n01843383,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,96,True
+n01843383,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,93,False
+n01843383,EfficientNetB0,SquareAttack,JPEG (q=75),True,96,True
+n01843383,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,93,False
+n01843383,EfficientNetB0,NES,JPEG (q=75),False,96,True
+n01843383,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),False,96,True
+n01843383,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,96,True
+n01843383,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,380,False
+n01855672,EfficientNetB0,FGSM,JPEG (q=75),True,220,False
+n01855672,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,220,False
+n01855672,EfficientNetB0,PGD,JPEG (q=75),True,198,False
+n01855672,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,225,False
+n01855672,EfficientNetB0,C&W,JPEG (q=75),False,99,True
+n01855672,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,99,True
+n01855672,EfficientNetB0,DeepFool,JPEG (q=75),True,99,True
+n01855672,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,99,True
+n01855672,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,345,False
+n01855672,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,99,True
+n01855672,EfficientNetB0,SquareAttack,JPEG (q=75),True,331,False
+n01855672,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,99,True
+n01855672,EfficientNetB0,NES,JPEG (q=75),False,350,False
+n01855672,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),False,99,True
+n01855672,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,350,False
+n01855672,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,350,False
+n01910747,EfficientNetB0,FGSM,JPEG (q=75),True,568,False
+n01910747,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,568,False
+n01910747,EfficientNetB0,PGD,JPEG (q=75),True,164,False
+n01910747,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,164,False
+n01910747,EfficientNetB0,C&W,JPEG (q=75),True,107,False
+n01910747,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),True,107,False
+n01910747,EfficientNetB0,DeepFool,JPEG (q=75),True,107,False
+n01910747,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,107,False
+n01910747,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,584,False
+n01910747,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,36,False
+n01910747,EfficientNetB0,SquareAttack,JPEG (q=75),True,107,False
+n01910747,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,107,False
+n01910747,EfficientNetB0,NES,JPEG (q=75),True,107,False
+n01910747,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,107,False
+n01910747,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,107,False
+n01910747,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,164,False
+n01930112,EfficientNetB0,FGSM,JPEG (q=75),False,111,True
+n01930112,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),False,111,True
+n01930112,EfficientNetB0,PGD,JPEG (q=75),True,657,False
+n01930112,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,111,True
+n01930112,EfficientNetB0,C&W,JPEG (q=75),False,111,True
+n01930112,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,111,True
+n01930112,EfficientNetB0,DeepFool,JPEG (q=75),True,111,True
+n01930112,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,111,True
+n01930112,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,111,True
+n01930112,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,111,True
+n01930112,EfficientNetB0,SquareAttack,JPEG (q=75),False,111,True
+n01930112,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),False,111,True
+n01930112,EfficientNetB0,NES,JPEG (q=75),False,111,True
+n01930112,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),False,111,True
+n01930112,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,111,True
+n01930112,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,111,True
+n01981276,EfficientNetB0,FGSM,JPEG (q=75),True,126,False
+n01981276,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,126,False
+n01981276,EfficientNetB0,PGD,JPEG (q=75),True,126,False
+n01981276,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,126,False
+n01981276,EfficientNetB0,C&W,JPEG (q=75),False,121,True
+n01981276,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,121,True
+n01981276,EfficientNetB0,DeepFool,JPEG (q=75),True,121,True
+n01981276,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,121,True
+n01981276,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,301,False
+n01981276,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,599,False
+n01981276,EfficientNetB0,SquareAttack,JPEG (q=75),True,121,True
+n01981276,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,121,True
+n01981276,EfficientNetB0,NES,JPEG (q=75),True,121,True
+n01981276,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,121,True
+n01981276,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,78,False
+n01981276,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,77,False
+n02074367,EfficientNetB0,FGSM,JPEG (q=75),True,149,True
+n02074367,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,296,False
+n02074367,EfficientNetB0,PGD,JPEG (q=75),True,296,False
+n02074367,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,296,False
+n02074367,EfficientNetB0,C&W,JPEG (q=75),False,149,True
+n02074367,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,149,True
+n02074367,EfficientNetB0,DeepFool,JPEG (q=75),True,149,True
+n02074367,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,149,True
+n02074367,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,149,True
+n02074367,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,296,False
+n02074367,EfficientNetB0,SquareAttack,JPEG (q=75),True,149,True
+n02074367,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,149,True
+n02074367,EfficientNetB0,NES,JPEG (q=75),False,149,True
+n02074367,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),False,149,True
+n02074367,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,149,True
+n02074367,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,107,False
+n02089867,EfficientNetB0,FGSM,JPEG (q=75),True,187,False
+n02089867,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,911,False
+n02089867,EfficientNetB0,PGD,JPEG (q=75),True,203,False
+n02089867,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,203,False
+n02089867,EfficientNetB0,C&W,JPEG (q=75),False,166,False
+n02089867,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,172,False
+n02089867,EfficientNetB0,DeepFool,JPEG (q=75),True,166,False
+n02089867,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,152,False
+n02089867,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,172,False
+n02089867,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,166,False
+n02089867,EfficientNetB0,SquareAttack,JPEG (q=75),True,906,False
+n02089867,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,906,False
+n02089867,EfficientNetB0,NES,JPEG (q=75),True,166,False
+n02089867,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,217,False
+n02089867,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,264,False
+n02089867,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,195,False
+n02091244,EfficientNetB0,FGSM,JPEG (q=75),True,537,False
+n02091244,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,275,False
+n02091244,EfficientNetB0,PGD,JPEG (q=75),True,269,False
+n02091244,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,272,False
+n02091244,EfficientNetB0,C&W,JPEG (q=75),True,537,False
+n02091244,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),True,537,False
+n02091244,EfficientNetB0,DeepFool,JPEG (q=75),True,537,False
+n02091244,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,537,False
+n02091244,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02091244,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,537,False
+n02091244,EfficientNetB0,SquareAttack,JPEG (q=75),True,904,False
+n02091244,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,537,False
+n02091244,EfficientNetB0,NES,JPEG (q=75),True,537,False
+n02091244,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,537,False
+n02091244,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,657,False
+n02091244,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,128,False
+n02091831,EfficientNetB0,FGSM,JPEG (q=75),True,176,False
+n02091831,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,275,False
+n02091831,EfficientNetB0,PGD,JPEG (q=75),True,176,False
+n02091831,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,176,False
+n02091831,EfficientNetB0,C&W,JPEG (q=75),False,210,True
+n02091831,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,215,False
+n02091831,EfficientNetB0,DeepFool,JPEG (q=75),True,210,True
+n02091831,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,215,False
+n02091831,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02091831,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,215,False
+n02091831,EfficientNetB0,SquareAttack,JPEG (q=75),True,904,False
+n02091831,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,904,False
+n02091831,EfficientNetB0,NES,JPEG (q=75),True,210,True
+n02091831,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,215,False
+n02091831,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,212,False
+n02091831,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,212,False
+n02099601,EfficientNetB0,FGSM,JPEG (q=75),True,163,False
+n02099601,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,163,False
+n02099601,EfficientNetB0,PGD,JPEG (q=75),True,163,False
+n02099601,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,163,False
+n02099601,EfficientNetB0,C&W,JPEG (q=75),False,207,True
+n02099601,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,207,True
+n02099601,EfficientNetB0,DeepFool,JPEG (q=75),True,207,True
+n02099601,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,207,True
+n02099601,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02099601,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,207,True
+n02099601,EfficientNetB0,SquareAttack,JPEG (q=75),True,207,True
+n02099601,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,207,True
+n02099601,EfficientNetB0,NES,JPEG (q=75),True,207,True
+n02099601,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,207,True
+n02099601,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,207,True
+n02099601,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,184,False
+n02101006,EfficientNetB0,FGSM,JPEG (q=75),True,165,False
+n02101006,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,164,False
+n02101006,EfficientNetB0,PGD,JPEG (q=75),True,241,False
+n02101006,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,241,False
+n02101006,EfficientNetB0,C&W,JPEG (q=75),False,165,False
+n02101006,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,165,False
+n02101006,EfficientNetB0,DeepFool,JPEG (q=75),True,214,True
+n02101006,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,214,True
+n02101006,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,244,False
+n02101006,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,239,False
+n02101006,EfficientNetB0,SquareAttack,JPEG (q=75),True,165,False
+n02101006,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,214,True
+n02101006,EfficientNetB0,NES,JPEG (q=75),False,214,True
+n02101006,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),False,214,True
+n02101006,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,256,False
+n02101006,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,265,False
+n02105505,EfficientNetB0,FGSM,JPEG (q=75),True,154,False
+n02105505,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,188,False
+n02105505,EfficientNetB0,PGD,JPEG (q=75),True,157,False
+n02105505,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,157,False
+n02105505,EfficientNetB0,C&W,JPEG (q=75),False,188,False
+n02105505,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,188,False
+n02105505,EfficientNetB0,DeepFool,JPEG (q=75),True,228,True
+n02105505,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,188,False
+n02105505,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,215,False
+n02105505,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,188,False
+n02105505,EfficientNetB0,SquareAttack,JPEG (q=75),True,202,False
+n02105505,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,228,True
+n02105505,EfficientNetB0,NES,JPEG (q=75),True,229,False
+n02105505,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,265,False
+n02105505,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,229,False
+n02105505,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,298,False
+n02108089,EfficientNetB0,FGSM,JPEG (q=75),True,215,False
+n02108089,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,215,False
+n02108089,EfficientNetB0,PGD,JPEG (q=75),True,218,False
+n02108089,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,218,False
+n02108089,EfficientNetB0,C&W,JPEG (q=75),False,242,True
+n02108089,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,242,True
+n02108089,EfficientNetB0,DeepFool,JPEG (q=75),True,167,False
+n02108089,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,247,False
+n02108089,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02108089,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,242,True
+n02108089,EfficientNetB0,SquareAttack,JPEG (q=75),True,242,True
+n02108089,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,242,True
+n02108089,EfficientNetB0,NES,JPEG (q=75),False,242,True
+n02108089,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),False,242,True
+n02108089,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,154,False
+n02108089,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,107,False
+n02108551,EfficientNetB0,FGSM,JPEG (q=75),True,221,False
+n02108551,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,221,False
+n02108551,EfficientNetB0,PGD,JPEG (q=75),True,220,False
+n02108551,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,221,False
+n02108551,EfficientNetB0,C&W,JPEG (q=75),False,244,True
+n02108551,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,244,True
+n02108551,EfficientNetB0,DeepFool,JPEG (q=75),True,244,True
+n02108551,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,244,True
+n02108551,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02108551,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,209,False
+n02108551,EfficientNetB0,SquareAttack,JPEG (q=75),True,244,True
+n02108551,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,256,False
+n02108551,EfficientNetB0,NES,JPEG (q=75),True,244,True
+n02108551,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,244,True
+n02108551,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,229,False
+n02108551,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,904,False
+n02108915,EfficientNetB0,FGSM,JPEG (q=75),True,674,False
+n02108915,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,674,False
+n02108915,EfficientNetB0,PGD,JPEG (q=75),True,103,False
+n02108915,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,179,False
+n02108915,EfficientNetB0,C&W,JPEG (q=75),False,223,True
+n02108915,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,223,True
+n02108915,EfficientNetB0,DeepFool,JPEG (q=75),True,223,True
+n02108915,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,223,True
+n02108915,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,674,False
+n02108915,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,179,False
+n02108915,EfficientNetB0,SquareAttack,JPEG (q=75),True,223,True
+n02108915,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,223,True
+n02108915,EfficientNetB0,NES,JPEG (q=75),True,223,True
+n02108915,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,435,False
+n02108915,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,103,False
+n02108915,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,539,False
+n02110063,EfficientNetB0,FGSM,JPEG (q=75),True,156,False
+n02110063,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,911,False
+n02110063,EfficientNetB0,PGD,JPEG (q=75),True,156,False
+n02110063,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,156,False
+n02110063,EfficientNetB0,C&W,JPEG (q=75),False,249,True
+n02110063,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,203,False
+n02110063,EfficientNetB0,DeepFool,JPEG (q=75),True,249,True
+n02110063,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,203,False
+n02110063,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02110063,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,330,False
+n02110063,EfficientNetB0,SquareAttack,JPEG (q=75),True,249,True
+n02110063,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,280,False
+n02110063,EfficientNetB0,NES,JPEG (q=75),True,249,True
+n02110063,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,203,False
+n02110063,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,356,False
+n02110063,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,361,False
+n02110341,EfficientNetB0,FGSM,JPEG (q=75),True,164,False
+n02110341,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,164,False
+n02110341,EfficientNetB0,PGD,JPEG (q=75),True,246,False
+n02110341,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,251,False
+n02110341,EfficientNetB0,C&W,JPEG (q=75),False,251,False
+n02110341,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,251,False
+n02110341,EfficientNetB0,DeepFool,JPEG (q=75),True,194,False
+n02110341,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,251,False
+n02110341,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02110341,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,251,False
+n02110341,EfficientNetB0,SquareAttack,JPEG (q=75),True,212,False
+n02110341,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,212,False
+n02110341,EfficientNetB0,NES,JPEG (q=75),True,194,False
+n02110341,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,251,False
+n02110341,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,208,False
+n02110341,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,257,False
+n02111277,EfficientNetB0,FGSM,JPEG (q=75),True,297,False
+n02111277,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,295,False
+n02111277,EfficientNetB0,PGD,JPEG (q=75),True,295,False
+n02111277,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,295,False
+n02111277,EfficientNetB0,C&W,JPEG (q=75),True,295,False
+n02111277,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),True,379,False
+n02111277,EfficientNetB0,DeepFool,JPEG (q=75),True,256,False
+n02111277,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,256,False
+n02111277,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,295,False
+n02111277,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,295,False
+n02111277,EfficientNetB0,SquareAttack,JPEG (q=75),True,297,False
+n02111277,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,256,False
+n02111277,EfficientNetB0,NES,JPEG (q=75),True,256,False
+n02111277,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,379,False
+n02111277,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,297,False
+n02111277,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,334,False
+n02113712,EfficientNetB0,FGSM,JPEG (q=75),True,330,False
+n02113712,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,434,False
+n02113712,EfficientNetB0,PGD,JPEG (q=75),True,363,False
+n02113712,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,363,False
+n02113712,EfficientNetB0,C&W,JPEG (q=75),True,175,False
+n02113712,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),True,196,False
+n02113712,EfficientNetB0,DeepFool,JPEG (q=75),True,194,True
+n02113712,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,265,False
+n02113712,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02113712,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,265,False
+n02113712,EfficientNetB0,SquareAttack,JPEG (q=75),True,196,False
+n02113712,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,265,False
+n02113712,EfficientNetB0,NES,JPEG (q=75),True,194,True
+n02113712,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,265,False
+n02113712,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,265,False
+n02113712,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,265,False
+n02114548,EfficientNetB0,FGSM,JPEG (q=75),True,200,False
+n02114548,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,200,False
+n02114548,EfficientNetB0,PGD,JPEG (q=75),True,190,False
+n02114548,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,190,False
+n02114548,EfficientNetB0,C&W,JPEG (q=75),False,270,True
+n02114548,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,270,True
+n02114548,EfficientNetB0,DeepFool,JPEG (q=75),True,270,True
+n02114548,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,270,True
+n02114548,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,212,False
+n02114548,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,212,False
+n02114548,EfficientNetB0,SquareAttack,JPEG (q=75),True,270,True
+n02114548,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,270,True
+n02114548,EfficientNetB0,NES,JPEG (q=75),False,270,True
+n02114548,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),False,270,True
+n02114548,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,269,False
+n02114548,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,272,False
+n02116738,EfficientNetB0,FGSM,JPEG (q=75),True,275,True
+n02116738,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,275,True
+n02116738,EfficientNetB0,PGD,JPEG (q=75),True,353,False
+n02116738,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,353,False
+n02116738,EfficientNetB0,C&W,JPEG (q=75),False,275,True
+n02116738,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,275,True
+n02116738,EfficientNetB0,DeepFool,JPEG (q=75),True,275,True
+n02116738,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,275,True
+n02116738,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,275,True
+n02116738,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,275,True
+n02116738,EfficientNetB0,SquareAttack,JPEG (q=75),False,275,True
+n02116738,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),False,275,True
+n02116738,EfficientNetB0,NES,JPEG (q=75),False,275,True
+n02116738,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),False,275,True
+n02116738,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,177,False
+n02116738,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,276,False
+n02120079,EfficientNetB0,FGSM,JPEG (q=75),True,270,False
+n02120079,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,258,False
+n02120079,EfficientNetB0,PGD,JPEG (q=75),True,199,False
+n02120079,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,199,False
+n02120079,EfficientNetB0,C&W,JPEG (q=75),False,279,True
+n02120079,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,279,True
+n02120079,EfficientNetB0,DeepFool,JPEG (q=75),True,279,True
+n02120079,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,279,True
+n02120079,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,279,True
+n02120079,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,279,True
+n02120079,EfficientNetB0,SquareAttack,JPEG (q=75),True,279,True
+n02120079,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,258,False
+n02120079,EfficientNetB0,NES,JPEG (q=75),False,279,True
+n02120079,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),False,279,True
+n02120079,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,279,True
+n02120079,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,270,False
+n02129165,EfficientNetB0,FGSM,JPEG (q=75),True,274,False
+n02129165,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,273,False
+n02129165,EfficientNetB0,PGD,JPEG (q=75),True,151,False
+n02129165,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,151,False
+n02129165,EfficientNetB0,C&W,JPEG (q=75),False,291,True
+n02129165,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,291,True
+n02129165,EfficientNetB0,DeepFool,JPEG (q=75),True,274,False
+n02129165,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,291,True
+n02129165,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,273,False
+n02129165,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,291,True
+n02129165,EfficientNetB0,SquareAttack,JPEG (q=75),True,274,False
+n02129165,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,291,True
+n02129165,EfficientNetB0,NES,JPEG (q=75),False,291,True
+n02129165,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),False,291,True
+n02129165,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,202,False
+n02129165,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,266,False
+n02138441,EfficientNetB0,FGSM,JPEG (q=75),True,299,False
+n02138441,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,299,False
+n02138441,EfficientNetB0,PGD,JPEG (q=75),True,276,False
+n02138441,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,276,False
+n02138441,EfficientNetB0,C&W,JPEG (q=75),False,299,False
+n02138441,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,299,False
+n02138441,EfficientNetB0,DeepFool,JPEG (q=75),True,299,False
+n02138441,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,299,False
+n02138441,EfficientNetB0,TargetedI-FGSM,JPEG (q=75),True,104,False
+n02138441,EfficientNetB0,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,104,False
+n02138441,EfficientNetB0,SquareAttack,JPEG (q=75),True,331,False
+n02138441,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,299,False
+n02138441,EfficientNetB0,NES,JPEG (q=75),True,299,False
+n02138441,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),True,299,False
+n02138441,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,280,False
+n02138441,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,76,False
+n02165456,EfficientNetB0,FGSM,JPEG (q=75),True,986,False
+n02165456,EfficientNetB0,FGSM,Feature Squeeze (4-bit + median-3),True,301,True
+n02165456,EfficientNetB0,PGD,JPEG (q=75),True,284,False
+n02165456,EfficientNetB0,PGD,Feature Squeeze (4-bit + median-3),True,332,False
+n02165456,EfficientNetB0,C&W,JPEG (q=75),False,301,True
+n02165456,EfficientNetB0,C&W,Feature Squeeze (4-bit + median-3),False,301,True
+n02165456,EfficientNetB0,DeepFool,JPEG (q=75),True,301,True
+n02165456,EfficientNetB0,DeepFool,Feature Squeeze (4-bit + median-3),True,301,True
+n02165456,EfficientNetB0,SquareAttack,JPEG (q=75),True,301,True
+n02165456,EfficientNetB0,SquareAttack,Feature Squeeze (4-bit + median-3),True,301,True
+n02165456,EfficientNetB0,NES,JPEG (q=75),False,301,True
+n02165456,EfficientNetB0,NES,Feature Squeeze (4-bit + median-3),False,301,True
+n02165456,EfficientNetB0,BoundaryAttack,JPEG (q=75),True,301,True
+n02165456,EfficientNetB0,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,78,False
+n01532829,InceptionV3,FGSM,JPEG (q=75),True,86,False
+n01532829,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,82,False
+n01532829,InceptionV3,PGD,JPEG (q=75),True,83,False
+n01532829,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,82,False
+n01532829,InceptionV3,C&W,JPEG (q=75),True,12,True
+n01532829,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,12,True
+n01532829,InceptionV3,DeepFool,JPEG (q=75),True,12,True
+n01532829,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,12,True
+n01532829,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,301,False
+n01532829,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,12,True
+n01532829,InceptionV3,SquareAttack,JPEG (q=75),False,12,True
+n01532829,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),False,12,True
+n01532829,InceptionV3,NES,JPEG (q=75),False,12,True
+n01532829,InceptionV3,NES,Feature Squeeze (4-bit + median-3),False,12,True
+n01532829,InceptionV3,BoundaryAttack,JPEG (q=75),True,12,True
+n01532829,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,377,False
+n01558993,InceptionV3,FGSM,JPEG (q=75),True,83,False
+n01558993,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,94,False
+n01558993,InceptionV3,PGD,JPEG (q=75),True,80,False
+n01558993,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,80,False
+n01558993,InceptionV3,C&W,JPEG (q=75),True,15,True
+n01558993,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,15,True
+n01558993,InceptionV3,DeepFool,JPEG (q=75),True,15,True
+n01558993,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,15,True
+n01558993,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,15,True
+n01558993,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,12,False
+n01558993,InceptionV3,SquareAttack,JPEG (q=75),True,15,True
+n01558993,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,15,True
+n01558993,InceptionV3,NES,JPEG (q=75),False,15,True
+n01558993,InceptionV3,NES,Feature Squeeze (4-bit + median-3),False,15,True
+n01558993,InceptionV3,BoundaryAttack,JPEG (q=75),True,15,True
+n01558993,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,335,False
+n01704323,InceptionV3,FGSM,JPEG (q=75),True,883,False
+n01704323,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,467,False
+n01704323,InceptionV3,PGD,JPEG (q=75),True,883,False
+n01704323,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,883,False
+n01704323,InceptionV3,C&W,JPEG (q=75),True,51,True
+n01704323,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,51,True
+n01704323,InceptionV3,DeepFool,JPEG (q=75),True,47,False
+n01704323,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,448,False
+n01704323,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,51,True
+n01704323,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,51,True
+n01704323,InceptionV3,SquareAttack,JPEG (q=75),False,51,True
+n01704323,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),False,51,True
+n01704323,InceptionV3,NES,JPEG (q=75),False,51,True
+n01704323,InceptionV3,NES,Feature Squeeze (4-bit + median-3),False,51,True
+n01704323,InceptionV3,BoundaryAttack,JPEG (q=75),True,51,True
+n01704323,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,51,True
+n01749939,InceptionV3,FGSM,JPEG (q=75),True,47,False
+n01749939,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,47,False
+n01749939,InceptionV3,PGD,JPEG (q=75),True,47,False
+n01749939,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,47,False
+n01749939,InceptionV3,C&W,JPEG (q=75),True,313,False
+n01749939,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,31,False
+n01749939,InceptionV3,DeepFool,JPEG (q=75),True,64,False
+n01749939,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,55,False
+n01749939,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,301,False
+n01749939,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,55,False
+n01749939,InceptionV3,SquareAttack,JPEG (q=75),True,47,False
+n01749939,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,47,False
+n01749939,InceptionV3,NES,JPEG (q=75),True,602,False
+n01749939,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,55,False
+n01749939,InceptionV3,BoundaryAttack,JPEG (q=75),True,377,False
+n01749939,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,31,False
+n01770081,InceptionV3,FGSM,JPEG (q=75),True,73,False
+n01770081,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,77,False
+n01770081,InceptionV3,PGD,JPEG (q=75),True,851,False
+n01770081,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,851,False
+n01770081,InceptionV3,C&W,JPEG (q=75),True,73,False
+n01770081,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,73,False
+n01770081,InceptionV3,DeepFool,JPEG (q=75),True,70,True
+n01770081,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,70,True
+n01770081,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,73,False
+n01770081,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,70,True
+n01770081,InceptionV3,SquareAttack,JPEG (q=75),True,70,True
+n01770081,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,73,False
+n01770081,InceptionV3,NES,JPEG (q=75),True,70,True
+n01770081,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,70,True
+n01770081,InceptionV3,BoundaryAttack,JPEG (q=75),True,545,False
+n01770081,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,70,True
+n01843383,InceptionV3,FGSM,JPEG (q=75),True,96,True
+n01843383,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,377,False
+n01843383,InceptionV3,PGD,JPEG (q=75),True,282,False
+n01843383,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,93,False
+n01843383,InceptionV3,C&W,JPEG (q=75),True,96,True
+n01843383,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,96,True
+n01843383,InceptionV3,DeepFool,JPEG (q=75),True,96,True
+n01843383,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,93,False
+n01843383,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,96,True
+n01843383,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,696,False
+n01843383,InceptionV3,SquareAttack,JPEG (q=75),True,96,True
+n01843383,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,96,True
+n01843383,InceptionV3,NES,JPEG (q=75),False,96,True
+n01843383,InceptionV3,NES,Feature Squeeze (4-bit + median-3),False,96,True
+n01843383,InceptionV3,BoundaryAttack,JPEG (q=75),True,96,True
+n01843383,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,96,True
+n01855672,InceptionV3,FGSM,JPEG (q=75),True,160,False
+n01855672,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,160,False
+n01855672,InceptionV3,PGD,JPEG (q=75),True,160,False
+n01855672,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,160,False
+n01855672,InceptionV3,C&W,JPEG (q=75),True,350,False
+n01855672,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,99,True
+n01855672,InceptionV3,DeepFool,JPEG (q=75),True,255,False
+n01855672,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,600,False
+n01855672,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,803,False
+n01855672,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,9,False
+n01855672,InceptionV3,SquareAttack,JPEG (q=75),True,160,False
+n01855672,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,284,False
+n01855672,InceptionV3,NES,JPEG (q=75),True,255,False
+n01855672,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,381,False
+n01855672,InceptionV3,BoundaryAttack,JPEG (q=75),True,350,False
+n01855672,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,331,False
+n01910747,InceptionV3,FGSM,JPEG (q=75),True,691,False
+n01910747,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,846,False
+n01910747,InceptionV3,PGD,JPEG (q=75),True,438,False
+n01910747,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,899,False
+n01910747,InceptionV3,C&W,JPEG (q=75),True,107,False
+n01910747,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,107,False
+n01910747,InceptionV3,DeepFool,JPEG (q=75),True,107,False
+n01910747,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,107,False
+n01910747,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,107,False
+n01910747,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,107,False
+n01910747,InceptionV3,SquareAttack,JPEG (q=75),True,107,False
+n01910747,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,76,False
+n01910747,InceptionV3,NES,JPEG (q=75),True,107,False
+n01910747,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,107,False
+n01910747,InceptionV3,BoundaryAttack,JPEG (q=75),True,73,False
+n01910747,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,107,False
+n01930112,InceptionV3,FGSM,JPEG (q=75),False,111,True
+n01930112,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),False,111,True
+n01930112,InceptionV3,PGD,JPEG (q=75),True,688,False
+n01930112,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,111,True
+n01930112,InceptionV3,C&W,JPEG (q=75),True,111,True
+n01930112,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,111,True
+n01930112,InceptionV3,DeepFool,JPEG (q=75),True,111,True
+n01930112,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,111,True
+n01930112,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,111,True
+n01930112,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,111,True
+n01930112,InceptionV3,SquareAttack,JPEG (q=75),False,111,True
+n01930112,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),False,111,True
+n01930112,InceptionV3,NES,JPEG (q=75),False,111,True
+n01930112,InceptionV3,NES,Feature Squeeze (4-bit + median-3),False,111,True
+n01930112,InceptionV3,BoundaryAttack,JPEG (q=75),True,111,True
+n01930112,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,111,True
+n01981276,InceptionV3,FGSM,JPEG (q=75),True,124,False
+n01981276,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,124,False
+n01981276,InceptionV3,PGD,JPEG (q=75),True,318,False
+n01981276,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,318,False
+n01981276,InceptionV3,C&W,JPEG (q=75),True,121,True
+n01981276,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,121,True
+n01981276,InceptionV3,DeepFool,JPEG (q=75),True,122,False
+n01981276,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,121,True
+n01981276,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,318,False
+n01981276,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,318,False
+n01981276,InceptionV3,SquareAttack,JPEG (q=75),True,121,True
+n01981276,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,121,True
+n01981276,InceptionV3,NES,JPEG (q=75),False,121,True
+n01981276,InceptionV3,NES,Feature Squeeze (4-bit + median-3),False,121,True
+n01981276,InceptionV3,BoundaryAttack,JPEG (q=75),True,121,True
+n01981276,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,126,False
+n02074367,InceptionV3,FGSM,JPEG (q=75),True,149,True
+n02074367,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,149,True
+n02074367,InceptionV3,PGD,JPEG (q=75),True,33,False
+n02074367,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,33,False
+n02074367,InceptionV3,C&W,JPEG (q=75),True,149,True
+n02074367,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,149,True
+n02074367,InceptionV3,DeepFool,JPEG (q=75),True,149,True
+n02074367,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,149,True
+n02074367,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,107,False
+n02074367,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,33,False
+n02074367,InceptionV3,SquareAttack,JPEG (q=75),True,149,True
+n02074367,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,149,True
+n02074367,InceptionV3,NES,JPEG (q=75),True,149,True
+n02074367,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,149,True
+n02074367,InceptionV3,BoundaryAttack,JPEG (q=75),True,107,False
+n02074367,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,106,False
+n02089867,InceptionV3,FGSM,JPEG (q=75),True,806,False
+n02089867,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,774,False
+n02089867,InceptionV3,PGD,JPEG (q=75),True,691,False
+n02089867,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,570,False
+n02089867,InceptionV3,C&W,JPEG (q=75),True,166,True
+n02089867,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,388,False
+n02089867,InceptionV3,DeepFool,JPEG (q=75),False,166,True
+n02089867,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),False,806,False
+n02089867,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02089867,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,863,False
+n02089867,InceptionV3,SquareAttack,JPEG (q=75),True,906,False
+n02089867,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,863,False
+n02089867,InceptionV3,NES,JPEG (q=75),True,166,True
+n02089867,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,999,False
+n02089867,InceptionV3,BoundaryAttack,JPEG (q=75),True,341,False
+n02089867,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,164,False
+n02091244,InceptionV3,FGSM,JPEG (q=75),True,130,False
+n02091244,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,130,False
+n02091244,InceptionV3,PGD,JPEG (q=75),True,723,False
+n02091244,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,723,False
+n02091244,InceptionV3,C&W,JPEG (q=75),True,433,False
+n02091244,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,433,False
+n02091244,InceptionV3,DeepFool,JPEG (q=75),True,537,True
+n02091244,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,537,True
+n02091244,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,433,False
+n02091244,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,433,False
+n02091244,InceptionV3,SquareAttack,JPEG (q=75),True,556,False
+n02091244,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,877,False
+n02091244,InceptionV3,NES,JPEG (q=75),True,537,True
+n02091244,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,537,True
+n02091244,InceptionV3,BoundaryAttack,JPEG (q=75),True,142,False
+n02091244,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,626,False
+n02091831,InceptionV3,FGSM,JPEG (q=75),True,176,False
+n02091831,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,176,False
+n02091831,InceptionV3,PGD,JPEG (q=75),True,176,False
+n02091831,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,176,False
+n02091831,InceptionV3,C&W,JPEG (q=75),True,176,False
+n02091831,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,212,False
+n02091831,InceptionV3,DeepFool,JPEG (q=75),True,167,True
+n02091831,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,212,False
+n02091831,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,176,False
+n02091831,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,212,False
+n02091831,InceptionV3,SquareAttack,JPEG (q=75),True,212,False
+n02091831,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,212,False
+n02091831,InceptionV3,NES,JPEG (q=75),True,167,True
+n02091831,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,212,False
+n02091831,InceptionV3,BoundaryAttack,JPEG (q=75),True,166,False
+n02091831,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,188,False
+n02099601,InceptionV3,FGSM,JPEG (q=75),True,273,False
+n02099601,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,163,False
+n02099601,InceptionV3,PGD,JPEG (q=75),True,163,False
+n02099601,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,163,False
+n02099601,InceptionV3,C&W,JPEG (q=75),True,207,True
+n02099601,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,207,True
+n02099601,InceptionV3,DeepFool,JPEG (q=75),True,207,True
+n02099601,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,207,True
+n02099601,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,271,False
+n02099601,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,207,True
+n02099601,InceptionV3,SquareAttack,JPEG (q=75),True,207,True
+n02099601,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,207,True
+n02099601,InceptionV3,NES,JPEG (q=75),True,207,True
+n02099601,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,207,True
+n02099601,InceptionV3,BoundaryAttack,JPEG (q=75),True,260,False
+n02099601,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,168,False
+n02101006,InceptionV3,FGSM,JPEG (q=75),True,165,False
+n02101006,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,234,False
+n02101006,InceptionV3,PGD,JPEG (q=75),True,164,False
+n02101006,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,164,False
+n02101006,InceptionV3,C&W,JPEG (q=75),True,214,True
+n02101006,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,214,True
+n02101006,InceptionV3,DeepFool,JPEG (q=75),True,165,False
+n02101006,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,212,False
+n02101006,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,214,True
+n02101006,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,164,False
+n02101006,InceptionV3,SquareAttack,JPEG (q=75),True,165,False
+n02101006,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,165,False
+n02101006,InceptionV3,NES,JPEG (q=75),False,214,True
+n02101006,InceptionV3,NES,Feature Squeeze (4-bit + median-3),False,214,True
+n02101006,InceptionV3,BoundaryAttack,JPEG (q=75),True,234,False
+n02101006,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,214,True
+n02105505,InceptionV3,FGSM,JPEG (q=75),True,156,False
+n02105505,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,204,False
+n02105505,InceptionV3,PGD,JPEG (q=75),True,156,False
+n02105505,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,155,False
+n02105505,InceptionV3,C&W,JPEG (q=75),True,228,True
+n02105505,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,265,False
+n02105505,InceptionV3,DeepFool,JPEG (q=75),True,229,False
+n02105505,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,36,False
+n02105505,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,380,False
+n02105505,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,188,False
+n02105505,InceptionV3,SquareAttack,JPEG (q=75),True,267,False
+n02105505,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,228,True
+n02105505,InceptionV3,NES,JPEG (q=75),True,229,False
+n02105505,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,228,True
+n02105505,InceptionV3,BoundaryAttack,JPEG (q=75),True,188,False
+n02105505,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,203,False
+n02108089,InceptionV3,FGSM,JPEG (q=75),True,247,False
+n02108089,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,242,True
+n02108089,InceptionV3,PGD,JPEG (q=75),True,255,False
+n02108089,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,207,False
+n02108089,InceptionV3,C&W,JPEG (q=75),False,242,True
+n02108089,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),False,242,True
+n02108089,InceptionV3,DeepFool,JPEG (q=75),True,242,True
+n02108089,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,242,True
+n02108089,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,159,False
+n02108089,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,242,True
+n02108089,InceptionV3,SquareAttack,JPEG (q=75),False,242,True
+n02108089,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),False,242,True
+n02108089,InceptionV3,NES,JPEG (q=75),False,242,True
+n02108089,InceptionV3,NES,Feature Squeeze (4-bit + median-3),False,242,True
+n02108089,InceptionV3,BoundaryAttack,JPEG (q=75),True,162,False
+n02108089,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,369,False
+n02108551,InceptionV3,FGSM,JPEG (q=75),True,221,False
+n02108551,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,221,False
+n02108551,InceptionV3,PGD,JPEG (q=75),True,221,False
+n02108551,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,221,False
+n02108551,InceptionV3,C&W,JPEG (q=75),True,244,True
+n02108551,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,244,True
+n02108551,InceptionV3,DeepFool,JPEG (q=75),True,244,True
+n02108551,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,476,False
+n02108551,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,221,False
+n02108551,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,213,False
+n02108551,InceptionV3,SquareAttack,JPEG (q=75),True,244,True
+n02108551,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,244,True
+n02108551,InceptionV3,NES,JPEG (q=75),False,244,True
+n02108551,InceptionV3,NES,Feature Squeeze (4-bit + median-3),False,244,True
+n02108551,InceptionV3,BoundaryAttack,JPEG (q=75),True,224,False
+n02108551,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,244,True
+n02108915,InceptionV3,FGSM,JPEG (q=75),True,357,False
+n02108915,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,760,False
+n02108915,InceptionV3,PGD,JPEG (q=75),True,700,False
+n02108915,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,700,False
+n02108915,InceptionV3,C&W,JPEG (q=75),True,223,False
+n02108915,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,223,False
+n02108915,InceptionV3,DeepFool,JPEG (q=75),False,179,True
+n02108915,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),False,245,False
+n02108915,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02108915,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,76,False
+n02108915,InceptionV3,SquareAttack,JPEG (q=75),True,245,False
+n02108915,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,760,False
+n02108915,InceptionV3,NES,JPEG (q=75),True,179,True
+n02108915,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,208,False
+n02108915,InceptionV3,BoundaryAttack,JPEG (q=75),True,295,False
+n02108915,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,223,False
+n02110063,InceptionV3,FGSM,JPEG (q=75),True,82,False
+n02110063,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,377,False
+n02110063,InceptionV3,PGD,JPEG (q=75),True,377,False
+n02110063,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,377,False
+n02110063,InceptionV3,C&W,JPEG (q=75),True,427,False
+n02110063,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,333,False
+n02110063,InceptionV3,DeepFool,JPEG (q=75),True,653,True
+n02110063,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,76,False
+n02110063,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02110063,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,301,False
+n02110063,InceptionV3,SquareAttack,JPEG (q=75),True,912,False
+n02110063,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,653,True
+n02110063,InceptionV3,NES,JPEG (q=75),True,653,True
+n02110063,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,76,False
+n02110063,InceptionV3,BoundaryAttack,JPEG (q=75),True,427,False
+n02110063,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,428,False
+n02110341,InceptionV3,FGSM,JPEG (q=75),True,204,False
+n02110341,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,204,False
+n02110341,InceptionV3,PGD,JPEG (q=75),True,204,False
+n02110341,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,212,False
+n02110341,InceptionV3,C&W,JPEG (q=75),True,212,False
+n02110341,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,251,True
+n02110341,InceptionV3,DeepFool,JPEG (q=75),True,251,True
+n02110341,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,251,True
+n02110341,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02110341,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,251,True
+n02110341,InceptionV3,SquareAttack,JPEG (q=75),True,251,True
+n02110341,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,251,True
+n02110341,InceptionV3,NES,JPEG (q=75),True,251,True
+n02110341,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,251,True
+n02110341,InceptionV3,BoundaryAttack,JPEG (q=75),True,257,False
+n02110341,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,251,True
+n02111277,InceptionV3,FGSM,JPEG (q=75),True,256,False
+n02111277,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,256,False
+n02111277,InceptionV3,PGD,JPEG (q=75),True,256,False
+n02111277,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,367,False
+n02111277,InceptionV3,C&W,JPEG (q=75),True,221,True
+n02111277,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,221,True
+n02111277,InceptionV3,DeepFool,JPEG (q=75),True,256,False
+n02111277,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,205,False
+n02111277,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,210,False
+n02111277,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,210,False
+n02111277,InceptionV3,SquareAttack,JPEG (q=75),True,221,True
+n02111277,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,295,False
+n02111277,InceptionV3,NES,JPEG (q=75),True,256,False
+n02111277,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,205,False
+n02111277,InceptionV3,BoundaryAttack,JPEG (q=75),True,221,True
+n02111277,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,265,False
+n02113712,InceptionV3,FGSM,JPEG (q=75),True,175,False
+n02113712,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,198,False
+n02113712,InceptionV3,PGD,JPEG (q=75),True,175,False
+n02113712,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,175,False
+n02113712,InceptionV3,C&W,JPEG (q=75),True,194,True
+n02113712,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,265,False
+n02113712,InceptionV3,DeepFool,JPEG (q=75),True,194,True
+n02113712,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,196,False
+n02113712,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,301,False
+n02113712,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,187,False
+n02113712,InceptionV3,SquareAttack,JPEG (q=75),True,194,True
+n02113712,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,196,False
+n02113712,InceptionV3,NES,JPEG (q=75),True,194,True
+n02113712,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,196,False
+n02113712,InceptionV3,BoundaryAttack,JPEG (q=75),True,204,False
+n02113712,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,196,False
+n02114548,InceptionV3,FGSM,JPEG (q=75),True,172,False
+n02114548,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,270,False
+n02114548,InceptionV3,PGD,JPEG (q=75),True,270,False
+n02114548,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,345,False
+n02114548,InceptionV3,C&W,JPEG (q=75),True,228,True
+n02114548,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,228,True
+n02114548,InceptionV3,DeepFool,JPEG (q=75),True,228,True
+n02114548,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,157,False
+n02114548,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,169,False
+n02114548,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,188,False
+n02114548,InceptionV3,SquareAttack,JPEG (q=75),True,228,True
+n02114548,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,188,False
+n02114548,InceptionV3,NES,JPEG (q=75),True,228,True
+n02114548,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,188,False
+n02114548,InceptionV3,BoundaryAttack,JPEG (q=75),True,188,False
+n02114548,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,188,False
+n02116738,InceptionV3,FGSM,JPEG (q=75),False,275,True
+n02116738,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),False,275,True
+n02116738,InceptionV3,PGD,JPEG (q=75),True,262,False
+n02116738,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,275,True
+n02116738,InceptionV3,C&W,JPEG (q=75),True,275,True
+n02116738,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,275,True
+n02116738,InceptionV3,DeepFool,JPEG (q=75),True,275,True
+n02116738,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,275,True
+n02116738,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,275,True
+n02116738,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,275,True
+n02116738,InceptionV3,SquareAttack,JPEG (q=75),False,275,True
+n02116738,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),False,275,True
+n02116738,InceptionV3,NES,JPEG (q=75),False,275,True
+n02116738,InceptionV3,NES,Feature Squeeze (4-bit + median-3),False,275,True
+n02116738,InceptionV3,BoundaryAttack,JPEG (q=75),True,275,True
+n02116738,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,275,True
+n02120079,InceptionV3,FGSM,JPEG (q=75),True,270,False
+n02120079,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,270,False
+n02120079,InceptionV3,PGD,JPEG (q=75),True,199,False
+n02120079,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,203,False
+n02120079,InceptionV3,C&W,JPEG (q=75),True,279,True
+n02120079,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,270,False
+n02120079,InceptionV3,DeepFool,JPEG (q=75),True,270,False
+n02120079,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,270,False
+n02120079,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,188,False
+n02120079,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,203,False
+n02120079,InceptionV3,SquareAttack,JPEG (q=75),True,279,True
+n02120079,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,279,True
+n02120079,InceptionV3,NES,JPEG (q=75),False,279,True
+n02120079,InceptionV3,NES,Feature Squeeze (4-bit + median-3),False,279,True
+n02120079,InceptionV3,BoundaryAttack,JPEG (q=75),True,279,True
+n02120079,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,794,False
+n02129165,InceptionV3,FGSM,JPEG (q=75),True,287,False
+n02129165,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,286,False
+n02129165,InceptionV3,PGD,JPEG (q=75),True,285,False
+n02129165,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,285,False
+n02129165,InceptionV3,C&W,JPEG (q=75),False,291,True
+n02129165,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),False,291,True
+n02129165,InceptionV3,DeepFool,JPEG (q=75),True,286,False
+n02129165,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,291,True
+n02129165,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,291,True
+n02129165,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,291,True
+n02129165,InceptionV3,SquareAttack,JPEG (q=75),True,291,True
+n02129165,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,291,True
+n02129165,InceptionV3,NES,JPEG (q=75),False,291,True
+n02129165,InceptionV3,NES,Feature Squeeze (4-bit + median-3),False,291,True
+n02129165,InceptionV3,BoundaryAttack,JPEG (q=75),True,260,False
+n02129165,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,260,False
+n02138441,InceptionV3,FGSM,JPEG (q=75),True,383,False
+n02138441,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),True,383,False
+n02138441,InceptionV3,PGD,JPEG (q=75),True,335,False
+n02138441,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,335,False
+n02138441,InceptionV3,C&W,JPEG (q=75),True,383,False
+n02138441,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,299,True
+n02138441,InceptionV3,DeepFool,JPEG (q=75),True,299,True
+n02138441,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,299,True
+n02138441,InceptionV3,TargetedI-FGSM,JPEG (q=75),True,299,True
+n02138441,InceptionV3,TargetedI-FGSM,Feature Squeeze (4-bit + median-3),True,104,False
+n02138441,InceptionV3,SquareAttack,JPEG (q=75),True,299,True
+n02138441,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,299,True
+n02138441,InceptionV3,NES,JPEG (q=75),True,299,True
+n02138441,InceptionV3,NES,Feature Squeeze (4-bit + median-3),True,299,True
+n02138441,InceptionV3,BoundaryAttack,JPEG (q=75),True,299,True
+n02138441,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,331,False
+n02165456,InceptionV3,FGSM,JPEG (q=75),False,986,False
+n02165456,InceptionV3,FGSM,Feature Squeeze (4-bit + median-3),False,114,False
+n02165456,InceptionV3,PGD,JPEG (q=75),True,986,False
+n02165456,InceptionV3,PGD,Feature Squeeze (4-bit + median-3),True,114,False
+n02165456,InceptionV3,C&W,JPEG (q=75),True,301,True
+n02165456,InceptionV3,C&W,Feature Squeeze (4-bit + median-3),True,301,True
+n02165456,InceptionV3,DeepFool,JPEG (q=75),True,301,True
+n02165456,InceptionV3,DeepFool,Feature Squeeze (4-bit + median-3),True,301,True
+n02165456,InceptionV3,SquareAttack,JPEG (q=75),True,301,True
+n02165456,InceptionV3,SquareAttack,Feature Squeeze (4-bit + median-3),True,301,True
+n02165456,InceptionV3,NES,JPEG (q=75),False,301,True
+n02165456,InceptionV3,NES,Feature Squeeze (4-bit + median-3),False,301,True
+n02165456,InceptionV3,BoundaryAttack,JPEG (q=75),True,253,False
+n02165456,InceptionV3,BoundaryAttack,Feature Squeeze (4-bit + median-3),True,523,False
