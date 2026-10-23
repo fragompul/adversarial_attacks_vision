@@ -1,0 +1,9 @@
+# Explainability
+
+This folder asks what an attack actually does to a model's attention, not just to its output label.
+
+`01_gradcam_under_attack` computes Grad-CAM heatmaps for the same image and the same target class, before and after a PGD attack, across three CNN architectures. The comparison is deliberately apples-to-apples: same class, same image, only the pixels changed by the attack differ, so any shift in the heatmap is attributable to the perturbation itself rather than to a different prediction being explained. The consistent pattern across all three models is that attention scatters away from the object that actually matters once the attack succeeds, visual evidence for what "hijacking a decision boundary" concretely looks like inside the network, not just in its output.
+
+`02_integrated_gradients_under_attack` runs the same before/after-PGD comparison with a different method: Integrated Gradients (Sundararajan et al., 2017) attributes the prediction to individual input pixels by accumulating gradients along a path from a black baseline image to the actual input, rather than reading a single coarse convolutional layer the way Grad-CAM does. It satisfies two axioms Grad-CAM does not, sensitivity and implementation invariance, at the cost of many more forward and backward passes per image, and serves as a finer-grained cross-check on Grad-CAM's story: the same object-to-background attention shift under attack should be visible at full input resolution, not only at a feature map's resolution.
+
+This folder still has room to grow: SHAP, or attention-map visualization for the Vision Transformer studied in `robustness_evaluation/09_vit_vs_cnn_robustness.ipynb`, would both fit directly alongside the two notebooks here, following the same before/after-attack comparison pattern.
