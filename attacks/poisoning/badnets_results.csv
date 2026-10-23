@@ -1,0 +1,5 @@
+Metric,Value
+Clean_Accuracy_Baseline,70.23255813953489
+Clean_Accuracy_Backdoored,73.0232558139535
+Backdoor_ASR_Backdoored_Model,19.047619047619047
+Backdoor_ASR_Baseline_Model,0.0
